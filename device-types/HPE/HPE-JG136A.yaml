@@ -1,0 +1,552 @@
+manufacturer: HPE
+model: OfficeConnect 1950 48G 2SFP+ 2XGT PoE+
+slug: officeconnect-1950
+description: HPE OfficeConnect 1950 48G 2SFP+ 2XGT PoE+(370W) Switch (JG963A)
+default_platform: null
+part_number: JG963A
+u_height: 1.0
+is_full_depth: false
+subdevice_role: null
+airflow: null
+weight: 7.0
+weight_unit: kg
+comments: '[HPE OfficeConnect 1950-48G-2SFP+-2XGT-PoE+](https://cdn.blueally.com/curvesales/datasheets/hpe-officeconnect/c04545486.pdf)'
+console-ports:
+- name: RJ-45 Console Port
+  type: rj-45
+  label: ''
+  description: 1 RJ-45 console port to access limited CLI port
+power-ports:
+- name: AC Power Supply
+  type: iec-60320-c14
+  maximum_draw: 470
+  allocated_draw: 370
+  label: ''
+  description: ''
+- name: DC Power Input (Backup)
+  type: other
+  maximum_draw: null
+  allocated_draw: null
+  label: JG136A HP RPS1600
+  description: Entrada de energia redundante (backup power input)
+interfaces:
+- name: GigabitEthernet1/0/1 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/1
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/2 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/2
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/3 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/3
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/4 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/4
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/5 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/5
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/6 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/6
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/7 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/7
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/8 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/8
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/9 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/9
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/10 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/10
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/11 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/11
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/12 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/12
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/13 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/13
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/14 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/14
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/15 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/15
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/16 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/16
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/17 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/17
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/18 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/18
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/19 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/19
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/20 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/20
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/21 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/21
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/22 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/22
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/23 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/23
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/24 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/24
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/25 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/25
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/26 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/26
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/27 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/27
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/28 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/28
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/29 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/29
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/30 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/30
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/31 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/31
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/32 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/32
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/33 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/33
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/34 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/34
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/35 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/35
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/36 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/36
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/37 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/37
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/38 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/38
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/39 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/39
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/40 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/40
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/41 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/41
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/42 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/42
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/43 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/43
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/44 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/44
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/45 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/45
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/46 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/46
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/47 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/47
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: GigabitEthernet1/0/48 Interface
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: GE-0/0/48
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: Ten-GigabitEthernet1/0/49 Interface
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: SFP+1
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Ten-GigabitEthernet1/0/50 Interface
+  type: 10gbase-x-sfpp
+  enabled: true
+  mgmt_only: false
+  label: SFP+2
+  description: ''
+  bridge: null
+  poe_mode: null
+  poe_type: null
+  rf_role: null
+- name: Ten-GigabitEthernet1/0/51 Interface
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  label: XGT-1
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
+- name: Ten-GigabitEthernet1/0/52 Interface
+  type: 10gbase-t
+  enabled: true
+  mgmt_only: false
+  label: XGT-2
+  description: ''
+  bridge: null
+  poe_mode: pse
+  poe_type: type1-ieee802.3af
+  rf_role: null
